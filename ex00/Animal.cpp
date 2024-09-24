@@ -1,18 +1,15 @@
 #include "Animal.hpp"
 
-Animal::Animal() : _type("Snail")
-{
-}
+Animal::Animal() : _type("Snail"){}
 
-Animal::~Animal(){
-}
+Animal::~Animal(){}
 
-void Animal::makeSound()const
+void Animal::makeSound() const
 {
     std::cout << _type << " Makes no sound !" << std::endl;
 }
 
-std::string Animal::getType()const
+std::string Animal::getType() const
 {
     return this->_type;
 }
