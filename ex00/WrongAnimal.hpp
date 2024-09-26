@@ -8,8 +8,9 @@ protected:
     std::string __type;
 public:
     WrongAnimal();
+    WrongAnimal(std::string __type);
     WrongAnimal(const WrongAnimal &copy);
-    WrongAnimal &WrongAnimal operator=(const WrongAnimal &assign);
+    WrongAnimal  &operator=(const WrongAnimal &assign);
     ~WrongAnimal();
     virtual void makeSound() const;
     virtual std::string gettype() const;
