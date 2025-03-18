@@ -7,8 +7,6 @@ C++ Module 04 is typically part of a series of lessons or courses designed to te
 ## Compilation
 
 ```
-Compile the project:
-```
 make
 ```
 Or, if there is no Makefile:
