@@ -4,6 +4,32 @@
 
 C++ Module 04 is typically part of a series of lessons or courses designed to teach advanced C++ programming concepts. In this module, you will learn about more complex features of C++, building upon the foundation of the previous modules. This module focuses on object-oriented programming (OOP), dynamic memory management, and advanced techniques for managing data and resources effectively in C++.
 
+## Installation & Compilation
+
+Clone the repository:
+```bash
+git clone https://github.com/your-username/cpp-module-04.git
+cd cpp-module-04
+
+```
+Compile the project:
+```
+make
+```
+Or, if there is no Makefile:
+```
+c++ -Wall -Wextra -Werror -std=c++98 *.cpp -o program
+```
+Run the program:
+```
+./exec_name(check Makefile)
+
+```
+# Usage
+```
+Run the compiled program to test basic C++ concepts, such as input/output handling, loops, and basic functions.
+```
+
 ## Topics Covered
 
 ### 1. **Classes and Objects**
