@@ -3,7 +3,7 @@
 #include <iostream>
 #include <iomanip>
 #include "Colours.hpp"
-
+#include "Brain.hpp"
 
 class Animal
 {

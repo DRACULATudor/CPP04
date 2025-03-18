@@ -3,7 +3,7 @@
 #include <iostream>
 #include <iomanip>
 #include "Colours.hpp"
-
+#include "Brain.hpp"
 
 class Animal
 {
@@ -15,6 +15,6 @@ public:
     Animal(const Animal &copy);
     Animal &operator=(const Animal &assign);
     virtual ~Animal();
-    virtual void makeSound() const;
+    virtual void makeSound() const = 0;
     virtual std::string getType() const;
 };

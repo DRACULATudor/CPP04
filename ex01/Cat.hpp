@@ -1,10 +1,11 @@
 #pragma once
 
 #include "Animal.hpp"
-#include "Colours.hpp"
 
 class Cat : public Animal
 {
+private:
+    Brain *brain;
 public:
     Cat();
     Cat(std::string name);
@@ -13,4 +14,5 @@ public:
     virtual ~Cat();
     virtual void makeSound() const;
     virtual std::string getType() const;
+    Brain   *getBrain();
 };
