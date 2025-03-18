@@ -4,9 +4,7 @@
 
 C++ Module 04 is typically part of a series of lessons or courses designed to teach advanced C++ programming concepts. In this module, you will learn about more complex features of C++, building upon the foundation of the previous modules. This module focuses on object-oriented programming (OOP), dynamic memory management, and advanced techniques for managing data and resources effectively in C++.
 
-## Installation & Compilation
-
-## Clone the repository
+## Compilation
 
 ```
 Compile the project:
