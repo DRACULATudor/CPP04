@@ -6,10 +6,7 @@ C++ Module 04 is typically part of a series of lessons or courses designed to te
 
 ## Installation & Compilation
 
-Clone the repository:
-```bash
-git clone https://github.com/your-username/cpp-module-04.git
-cd cpp-module-04
+## Clone the repository
 
 ```
 Compile the project:
